@@ -1,13 +1,12 @@
 # framework/library
-
-  `mongoose`, `express`, `firebase`, 
+  `mongoose`, `express`, `firebase`
   
 # url
   https://shopeeholic.herokuapp.com/
 
-# note
+# featured functions
   login with gmail\
-  automatically send gmail when create account or change password\
+  automatically send confirmed gmail when create account or change password\
   responsive fontend\
   add/edit/delete comment\
   add/delete item to cart\
