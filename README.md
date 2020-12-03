@@ -1,5 +1,5 @@
 # framework/library
-  `mongoose`, `express`, `firebase`
+  `reactjs`, `firebase`
 # purpose/motivation
   the app named `shopeeholic` is a shoping online website, it provides 2 role: `client`, `saler`/`saleman` \
   you can choose one of them \
