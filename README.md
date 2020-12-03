@@ -1,6 +1,6 @@
 # framework/library
 
-  mongoose, express, firebase, 
+  `mongoose`, `express`, `firebase`, 
   
 # url
   https://shopeeholic.herokuapp.com/
@@ -16,6 +16,6 @@
 
 # download
   open command prompt\
-  git clone https://github.com/Khangithub/shop-frontend.git  \
-  cd shop-frontend \
-  yarn start
+  `git clone https://github.com/Khangithub/shop-frontend.git`  \
+  `cd shop-frontend` \
+  `yarn start`
