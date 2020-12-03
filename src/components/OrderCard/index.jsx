@@ -124,6 +124,7 @@ export default function OrderCard({order, forSaleman, forBuyer}) {
           placeholder={`x ${quantity}`}
           onChange={(e) => setUpdatedQuantity(e.target.value)}
           onKeyUp={handleSubmit}
+          disabled={forBuyer ? false : true}
         />
         {forSaleman && buyer && (
           <Tippy content={`Buyer: ${buyer.username}`} placement="right">
