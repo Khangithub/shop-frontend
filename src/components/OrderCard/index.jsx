@@ -125,7 +125,7 @@ export default function OrderCard({order, forSaleman, forBuyer}) {
           onChange={(e) => setUpdatedQuantity(e.target.value)}
           onKeyUp={handleSubmit}
         />
-        {forSaleman && (
+        {forSaleman && buyer && (
           <Tippy content={`Buyer: ${buyer.username}`} placement="right">
             <Image src={buyer.avatar} alt="buyer avatar" />
           </Tippy>
