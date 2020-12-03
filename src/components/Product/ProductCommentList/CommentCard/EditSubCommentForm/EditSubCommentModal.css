@@ -1,0 +1,29 @@
+.edit__sub__comment {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 1;
+  margin: 20px;
+}
+
+.edit__sub__comment > img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.edit__sub__comment > textarea {
+  display: flex;
+  flex: 1;
+  border: 0;
+  background-color: #ececec;
+  color: #111;
+  padding: 10px;
+  font-size: 13px;
+  border-radius: 20px;
+}
+
+.edit__sub__comment > textarea:focus {
+  outline: none;
+}

@@ -1,0 +1,38 @@
+.footer__back__to__top__button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #232f3e;
+  opacity: 0.7;
+}
+
+.footer__back__to__top__button:hover {
+  opacity: 0.5;
+}
+
+.footer__back__to__top__button > p {
+  color: white;
+  font-size: small;
+}
+
+.footer__info__container {
+  background-color: #232f3e;
+  margin: 0 !important;
+  padding: 50px;
+}
+
+.footer__section {
+  padding: 50px;
+}
+
+.footer__section > h5 {
+  color: white;
+  font-weight: 700;
+}
+
+.footer__section > p {
+  color: white;
+  font-size: small;
+}

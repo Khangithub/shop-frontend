@@ -1,0 +1,9 @@
+.productList {
+  background-color: rgb(234, 237, 237);
+}
+
+.products__paginated__list {
+  position: relative;
+  top: -150px;
+  margin-bottom: -130px;
+}

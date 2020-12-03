@@ -1,0 +1,19 @@
+#contained-modal-title-vcenter > span {
+  text-transform: capitalize;
+  margin-right: 10px;
+}
+
+#contained-modal-title-vcenter > img {
+  width: 70px;
+  height: 70px;
+}
+
+.edit__button__button {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.edit__button__button__container {
+  padding: 20px !important;
+}

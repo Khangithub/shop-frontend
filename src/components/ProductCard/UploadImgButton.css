@@ -1,0 +1,13 @@
+.upload__img__button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.upload__img__button > label {
+  margin-right: 10px;
+}
+
+/* .upload__img__button > progress {
+  width: 70px;
+} */

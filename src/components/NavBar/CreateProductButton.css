@@ -1,0 +1,24 @@
+.create__product__button__container {
+  display: block;
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+.create__product__button__container:hover {
+  opacity: 0.4;
+}
+
+.create__product__button__container > img {
+  width: 50px;
+  height: 50px;
+}
+
+.create__product__modal {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+.add__product__modal__col {
+  padding: 20px !important;
+}

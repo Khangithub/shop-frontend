@@ -1,0 +1,9 @@
+.home {
+  background-color: rgb(234, 237, 237);
+}
+
+.home__random__product__list {
+  display: flex;
+  position: relative;
+  top: -100px;
+}

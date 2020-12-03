@@ -1,0 +1,45 @@
+.modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 1rem;
+  border: 0 !important;
+}
+
+.modal-header .close {
+  padding: 25px 15px 10px 0;
+  margin: -1rem -1rem -1rem auto;
+}
+.close > span::after,
+.close > span::before {
+  border: 0 !important;
+  outline: none !important;
+}
+
+.edit__main__comment__modal {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  margin: 20px;
+}
+
+.edit__main__comment__modal > img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.edit__main__comment__modal > textarea {
+  display: flex;
+  flex: 1;
+  border: 0;
+  background-color: #ececec;
+  color: #111;
+  padding: 10px;
+  font-size: 13px;
+  border-radius: 20px;
+}
+
+.edit__main__comment__modal > textarea:focus {
+  outline: none;
+}

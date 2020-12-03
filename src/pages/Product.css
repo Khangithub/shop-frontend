@@ -1,0 +1,12 @@
+.section__title {
+  text-transform: uppercase;
+  color: gray;
+  font-size: 12px;
+  margin: 20px 0 !important;
+}
+
+.divider {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}

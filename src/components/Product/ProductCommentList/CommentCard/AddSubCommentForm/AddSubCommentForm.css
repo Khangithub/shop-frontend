@@ -1,0 +1,27 @@
+.add__sub__comment__form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.add__sub__comment__form > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.add__sub__comment__form > textarea {
+  display: flex;
+  flex: 1;
+  border: 0;
+  background-color: #f5f5f5;
+  color: #111;
+  padding: 10px;
+  font-size: 13px;
+  border-radius: 20px;
+}
+
+.add__sub__comment__form > textarea:focus {
+  outline: none;
+}

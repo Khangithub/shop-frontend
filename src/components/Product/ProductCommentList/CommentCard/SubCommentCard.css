@@ -1,0 +1,59 @@
+.sub__comment__card {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+.sub__comment__card__comment {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.sub__comment__card__comment > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+#sub__comment__card__comment__sender__name {
+  text-transform: capitalize;
+  font-size: small;
+}
+
+.sub__comment__card__comment__content {
+  background-color: #ececec;
+  padding: 0 10px;
+  border-radius: 15px;
+  word-break: break-all;
+}
+
+.sub__comment__card__comment__content > span:first-child {
+  font-size: small;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.sub__comment__card__comment__content > span:last-child {
+  font-size: small;
+}
+
+.sub__comment__card__button__list {
+  margin-left: 40px;
+}
+
+.sub__comment__card__button__list > small {
+  font-size: small;
+  background-color: #ececec;
+  padding: 0 5px;
+  margin: 10px 5px;
+  border-radius: 10px;
+}
+
+.sub__comment__card__button__list > small:last-child {
+  font-size: x-small;
+  background-color: transparent;
+}
+
+.align-left {
+  margin-left: 50px;
+}

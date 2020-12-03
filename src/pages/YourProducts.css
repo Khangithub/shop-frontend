@@ -1,0 +1,26 @@
+.your__product__avatar {
+  width: -webkit-fill-available;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.your__product__container {
+  position: relative;
+  top: -500px;
+  margin-bottom: -450px;
+}
+
+@media screen and (max-width: 992px) {
+  .your__product__container {
+    position: relative;
+    top: -300px;
+    margin-bottom: -270px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .your__product__container {
+    position: relative;
+    top: -100px;
+    margin-bottom: -60px;
+  }
+}

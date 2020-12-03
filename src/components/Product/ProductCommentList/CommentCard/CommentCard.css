@@ -1,0 +1,57 @@
+.comment__card {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.comment__card:nth-child(1) {
+  margin-top: 50px;
+}
+
+.comment__card__comment {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.comment__card__comment > img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.comment__card__comment > div {
+  background-color: #ececec;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.comment__card__comment > div > span:first-child {
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.comment__card__comment > div > span:last-child {
+  font-size: 13px;
+  word-break: break-all;
+}
+
+.comment__card__button__list > small {
+  font-size: small;
+  background-color: #ececec;
+  padding: 0 5px;
+  margin: 10px 5px;
+  border-radius: 10px;
+}
+
+.comment__card__button__list > small:last-child {
+  font-size: x-small;
+  background-color: transparent;
+}
+
+.align__left {
+  margin-left: 50px;
+}

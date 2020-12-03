@@ -1,0 +1,36 @@
+.search {
+}
+
+.search > .search__overview__container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.search
+  > .search__overview__container
+  > .search__results__quantity
+  > span:first-child {
+  font-size: x-large;
+  font-weight: 700;
+  color: gray;
+  text-transform: uppercase;
+}
+
+.search
+  > .search__overview__container
+  > .search__results__quantity
+  > span:last-child {
+  font-size: xx-large;
+  font-weight: 800;
+  color: #dc3545;
+}
+
+.search > .search__product__list__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 30px;
+}

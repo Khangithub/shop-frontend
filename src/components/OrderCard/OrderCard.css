@@ -1,0 +1,138 @@
+.order__card {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 10px;
+}
+
+.order__card__container {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  width: 100%;
+  align-items: stretch;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.order__card__product__img__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order__card__product__img__container > img {
+  object-fit: cover;
+  width: 100px;
+  border-radius: 5px;
+  height: 100%;
+}
+
+.order__card__product__img__container > p {
+  padding: 5px 10px;
+  background: #dc3545;
+  color: white;
+  text-transform: capitalize;
+  border-radius: 10px;
+  position: relative;
+  top: -30px;
+  border: 5px solid white;
+  font-size: small;
+}
+
+.order__card__product__img__container > div {
+  position: relative;
+  z-index: 1;
+}
+.order__card__product__img__container > div > img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.order__card__info {
+  margin: 0 15px;
+}
+
+.order__card__product__info__product__name {
+  font-size: larger;
+  font-weight: 700;
+  text-transform: capitalize;
+  cursor: pointer !important;
+}
+
+.order__card__product__info__product__net__price {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 2px 0;
+}
+
+.order__card__product__info__product__net__price > span:first-child {
+  font-size: x-large;
+  font-weight: bolder;
+  margin-right: 10px;
+  background-color: gold;
+  padding: 2px 10px;
+  border-radius: 12px;
+}
+
+.order__card__info > button {
+  background: #f0c14b;
+  border-radius: 2px;
+  width: fit-content;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  word-break: break-all;
+  text-transform: capitalize;
+}
+
+.order__transaction__partner__info {
+  position: relative;
+  left: -20px;
+  top: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.order__transaction__partner__info > input {
+  width: 80px;
+  border: 0 !important;
+  background-color: #dc3545;
+  border-radius: 10px;
+  height: 30px;
+  color: white;
+}
+
+.order__transaction__partner__info > input:focus {
+  outline: none;
+  font-weight: bolder;
+}
+
+.order__transaction__partner__info > input::placeholder {
+  color: white;
+}
+
+.order__transaction__partner__info > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin: 10px 0;
+}
+
+.order__transaction__partner__info > p {
+  background: gold;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: x-small;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 450px) {
+  .order__transaction__partner__info {
+    display: none !important;
+  }
+}

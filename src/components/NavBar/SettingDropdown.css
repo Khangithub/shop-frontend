@@ -1,0 +1,73 @@
+.setting__dropdown > a {
+  border: 3px dashed #846a29;
+  background-color: #f0c14b;
+  opacity: 0.9;
+  color: black;
+  padding: 3px;
+  border-radius: 2px;
+}
+
+.setting__dropdown__title > span:first-child {
+  font-size: 12px;
+  line-height: 14px;
+  height: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.setting__dropdown__title > span:last-child {
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.setting__dropdown__item {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.setting__dropdown__login__button,
+.setting__dropdown__signup__button {
+  display: flex;
+  justify-content: center;
+  background: #f0c14b;
+  height: fit-content;
+  margin: 5px 0;
+  padding: 5px;
+  border: 1px solid #846a29;
+  border-radius: 2px;
+}
+
+.setting__dropdown__login__button:hover,
+.setting__dropdown__signup__button:hover {
+  background: #f0c14b !important;
+  opacity: 0.8;
+}
+
+.setting__dropdown__item > .setting__dropdown__item__title {
+  font-size: 14px;
+  line-height: 14px;
+  height: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  padding: 0 10px;
+}
+
+.setting__dropdown__item > .setting__dropdown__item__length {
+  background-color: #dc3545;
+  color: white;
+  padding: 2px 4px;
+  border-radius: 5px;
+}
+
+.setting__dropdown__item__img {
+  width: 30px;
+  height: 30px;
+}
+
+.setting__dropdown__item__badge {
+  height: 20px;
+  line-height: 20px;
+}
